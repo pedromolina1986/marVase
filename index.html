@@ -1,11 +1,101 @@
+<!--
+    TECH1101 - Web and Internet Fundamentals
+    Instructor: Michael Dorsey
+    Final Project
+    Student Name: Pedro Kuchak Molina
+    Student ID: 467777
+
+    references: 
+    Gradient colors: https://cssgradient.io/
+-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/logos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+
+    <title>marVase - Home</title>
 </head>
+
 <body>
-    marVase
+    <div class="mainContainer">
+        <!-- PAGE HEADER -->
+        <header-component></header-component>
+
+        <!--INTRODUCTION-->
+        <div class="intro">
+            <div class="introText">
+                <p class="introTextRegular">HELLO, MY NAME IS</p>
+                <h1 class="introTextName">marVase</h1>
+                <h2>The Smart Way to Nurture Your Plants</h2>
+                <p class="introTextRegular">
+                    Meet marVase, the intelligent plant vase designed to create the perfect environment 
+                    for your plants to thrive. Equipped with advanced sensors and an automated watering system, 
+                    marVase takes the guesswork out of plant care, ensuring your plants receive the right amount of water, 
+                    moisture, and climate control for optimal growth.
+                    🌿 Give your plants the care they deserve with marVase. Smart. Simple. Sustainable.
+                </p>
+            </div>
+            <div class="introPicture">
+                <img src="images/profile.jpg" />
+            </div>
+        </div>
+
+        <!--ABOUT-->
+        <div class="about">            
+            <div class="aboutCard">
+                <div class="aboutCardTitle">
+                    <h2>Smart Features for Healthier Plants:</h2>                    
+                </div>
+                <div class="aboutCardContent">
+                    <p>🌱 Soil Moisture Monitoring</p>
+                    <p>Automatically detects soil moisture levels and waters your plant only when needed, preventing under or overwatering.</p>
+                   
+                    <p>🌡️ Temperature & Humidity Sensors</p>
+                    <p>Keeps track of the surrounding environment, alerting you if conditions move outside the ideal range for your plant.</p>
+
+                    <p>💧 Water Reservoir with Smart Tracking</p>
+                    <p>Built-in water storage with real-time level monitoring ensures your plant is always hydrated. Refill alerts let you know when it’s time to add more water.</p>
+                    
+                    <p>📱 Smart App Integration</p>
+                    <p>Monitor your plant’s health, receive notifications, and adjust settings remotely through the marVase mobile app. Connect with smart home assistants for voice control.</p>
+
+                    <p>🔋 Energy-Efficient & Sustainable</p>
+                    <p>Powered by a rechargeable battery or optional solar panel, marVase keeps your plant thriving with minimal energy consumption.</p>
+                </div>
+            </div>
+            <div class="aboutCard">
+                <div class="aboutCardTitle">
+                    <h2>✨ Why Choose marVase?</h2>                    
+                </div>
+                <div class="aboutCardContent">                    
+
+                    <p>Automates plant care for stress-free maintenance.</p>
+
+                    <p>Ideal for busy lifestyles, frequent travelers, or anyone who loves plants.</p>
+
+                    <p>Enhances plant health and growth with real-time environmental monitoring.</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--FOOTER-->
+        <footer-component></footer-component>
+    </div>
+    
+
 </body>
+
+
 </html>
