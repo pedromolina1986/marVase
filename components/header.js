@@ -15,8 +15,6 @@ class Header extends HTMLElement {
             </div>
             <div id="menuLeft" class="menuLeft">
               <span><a href="/marVase/index.html">home</a></span>
-              <span><a href="/marVase/pages/about.html">about</a></span>
-              <span><a href="/marVase/pages/portfolio.html">tutorials</a></span>
               <span><a href="/marVase/pages/blog.html">blog</a></span>
               <span><a href="/marVase/pages/contact.html">contact</a></span>
             </div>
@@ -25,8 +23,6 @@ class Header extends HTMLElement {
             </div>
            <div id="menu" class="menu">
               <span><a href="/marVase/index.html">home</a></span>
-              <span><a href="/marVase/pages/about.html">about</a></span>
-              <span><a href="/marVase/pages/portfolio.html">tutorials</a></span>
               <span><a href="/marVase/pages/blog.html">blog</a></span>
               <span><a href="/marVase/pages/contact.html">contact</a></span>
             </div>
