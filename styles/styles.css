@@ -82,7 +82,7 @@ a:hover {
 .logo {
     text-align: left;
     min-width: 50%;
-    color: var(--fifthColor);
+    
 }
 
 .logo>span {
@@ -229,10 +229,8 @@ a:hover {
 
 @media (max-width: 1023px) {
     .introPicture img {
-        width: 80%;
-        padding: auto;
-        margin: auto;
-        margin-left: 10%;
+        
+        clip-path: none;
     }
 
 }
