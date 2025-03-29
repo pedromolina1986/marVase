@@ -228,8 +228,7 @@ a:hover {
 }
 
 @media (max-width: 1023px) {
-    .introPicture img {
-        
+    .introPicture img {        
         clip-path: none;
     }
 
@@ -241,19 +240,19 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: stretch;
+    align-items: center;
     flex-wrap: wrap;
     flex-basis: auto;
     padding-top: 10px;
     width: 100%;
-    min-height: 30vh;
+    
 }
 
 .about>div {
     box-shadow: 5px 5px 5px 5px var(--secondaryColor);
     text-align: center;
     border-radius: 10px;
-    min-height: 200px;
+    min-height: 150px;
     min-width: calc(100vmin/3);
     max-width: calc(100vmin/3);
     
@@ -294,153 +293,13 @@ a:hover {
     flex-direction: row;
 }
 
-.aboutCardTitle>a {
-    background: none;
-    color: var(--thirdColor);
-    width: 100%;
-}
-
-.aboutCardTitle>h2:hover {
-    color: var(--thirdColor);
-    cursor: pointer;
-}
-
-.aboutCardTitle>a:hover {
-    color: var(--primaryColor);
-    cursor: pointer;
-}
 
 .aboutCardContent {
-    padding-bottom: 10px;
+    
     padding-top: 10px;
     font-size: 0.9em;
 }
 
-/*ABOUT - Professional*/
-
-.aboutCard:first-child>.aboutCardContent {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.aboutCard:first-child>.aboutCardContent>*>img {
-    width: 200px;
-    margin: 10px;
-}
-
-.aboutCard:first-child>.aboutCardContent>.golive {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: left;
-    margin: 10px;
-    width: 100%;
-}
-
-.aboutCard:first-child>.aboutCardContent>.golive>a> :first-child {
-    width: 160px;
-}
-
-.aboutCard:first-child>.aboutCardContent>.golive>a> :nth-child(2) {
-    width: 50px;
-}
-
-.aboutCard:first-child>.aboutCardContent>a>img:hover {
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px var(--secondaryColor);
-    cursor: pointer;
-}
-
-.aboutCard:first-child>.aboutCardContent>.golive>a:hover {
-    border-radius: 10px;
-    box-shadow: 5px 5px
-}
-
-/*ABOUT - ACADEMIC*/
-.aboutCard:nth-child(2)>.aboutCardContent {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: left;
-    flex-grow: 1;
-    width: 100%;
-}
-
-/*academic history item*/
-.aboutCard:nth-child(2)>.aboutCardContent>div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
-}
-
-.aboutCard:nth-child(2)>.aboutCardContent>div:hover {
-    box-shadow: 5px 5px 5px 5px var(--secondaryColor);
-    cursor: pointer;
-}
-
-
-/*academic history item image*/
-.aboutCard:nth-child(2)>.aboutCardContent>div>a>img {
-    width: 100px;
-    margin-bottom: 10px;
-}
-
-/*academic history item description*/
-.aboutCard:nth-child(2)>.aboutCardContent>div>span {
-    color: var(--primaryColor);
-    font-size: small;
-}
-
-/*academic history item description*/
-.aboutCard:nth-child(2)>.aboutCardContent>div>span:nth-child(3) {
-    color: var(--thirdColor);
-    font-size: small;
-}
-
-.aboutCard:nth-child(2)>.aboutCardContent>div>span:nth-child(4) {
-    color: var(--thirdColor);
-    font-size: small;
-}
-
-/*stack*/
-
-.aboutCard:nth-child(3)>.aboutCardContent {
-    display: flex;
-    flex-direction: right;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: left;
-    flex-grow: 1;
-    width: 100%;
-    gap: 20px;
-}
-
-.aboutCard:nth-child(3)>.aboutCardContent>h4 {
-    width: 100%;
-    text-align: left;
-    color: var(--thirdColor);
-}
-
-.aboutCard:nth-child(3)>.aboutCardContent>img {
-    width: 50px;
-}
-
-.concept {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 30px;    
-}
-
-.concept>img {
-    width: 100%;    
-}
 
 /*FOOTER*/
 .footer {
