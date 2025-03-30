@@ -295,9 +295,16 @@ a:hover {
 
 
 .aboutCardContent {
-    
     padding-top: 10px;
     font-size: 0.9em;
+}
+
+.aboutCardContent>a {
+    color: var(--fifthColor);
+}
+
+.aboutCardContent>a:hover {
+    font-weight: bolder;
 }
 
 
