@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
         <div class="header">           
             <div>
-                <div class="bars" onClick="openMenuLeft()">
+                <div id="bars" class="bars" onClick="openMenuLeft()">
                     <div></div>
                     <div></div>
                     <div></div>                                        
@@ -42,5 +42,20 @@ function openMenuLeft() {
     document.getElementById("menuLeft").style.visibility = "hidden";
   }
 }
+
+//CLICK AWAY LISTENER TO CLOSE THE MENU WHEN CLICK OUTSIDE
+document.addEventListener("click", (evt) => {
+  const menuLeft = document.getElementById("menuLeft");
+  const bars = document.getElementById("bars");
+  let targetEl = evt.target; // clicked element      
+  do {
+    if(targetEl == menuLeft || targetEl == bars ) {      
+      return;
+    }    
+    targetEl = targetEl.parentNode;
+  } while (targetEl);  
+  menuLeft.style.visibility ="hidden";
+});
+
 
 customElements.define('header-component', Header);

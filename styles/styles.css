@@ -134,13 +134,15 @@ a:hover {
         justify-content: baseline;
         align-items: left;
         visibility: hidden;
-        min-height: 100vh;
+        min-height: 70px;
         z-index: 1;
         font-size: 13px;
-        padding: 10px;
-        margin-left: -30px;
-        margin-top: 20px;
+        padding: 10px;                
+        gap: 5px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px var(--secondaryColor);
     }
+    
 }
 
 .menu span {
