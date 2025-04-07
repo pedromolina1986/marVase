@@ -232,7 +232,8 @@ a:hover {
 @media (max-width: 1023px) {
     .introPicture img {        
         clip-path: none;
-    }
+        width: 100%;
+    }    
 
 }
 
