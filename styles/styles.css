@@ -233,6 +233,7 @@ a:hover {
     .introPicture img {        
         clip-path: none;
         width: 100%;
+         margin: 0px;
     }    
 
 }
@@ -277,7 +278,7 @@ a:hover {
         margin-top: 20px;
         max-width: 90vw;
         min-width: 90vw;
-        margin-left: 10px;
+        margin-left: 10px;        
     }
 
 }
