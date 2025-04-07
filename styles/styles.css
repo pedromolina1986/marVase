@@ -112,7 +112,7 @@ a:hover {
     .logo {
         text-align: center;
         margin: 0px;
-        min-width: 60%;
+        min-width: 50%;
     }
 
     .logo>span {
